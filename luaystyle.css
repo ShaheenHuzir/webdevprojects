@@ -1,0 +1,112 @@
+body { width:auto; 
+       background-color: darkgray;}
+
+main { 
+            width:100%;          }                   
+
+#navibar
+        {   display:flex;
+            background-color:black;
+            color:white;
+            justify-content: space-between;                      
+            position: fixed;
+            width: 100%; 
+            top: 0px;
+            left: 0px;                }
+
+nav a { margin :20px;
+        font-size: 20px;
+        text-decoration: none;
+        color:white;                        }
+
+nav  ul
+{list-style-type: none;}
+
+h1  {   font-size: 40px;
+        margin:5px; 
+                   }
+
+#fors 
+   {   background-color: black;
+        
+       
+        padding: 20px;
+        width:  20%;
+        height: 20%;
+        
+        
+}
+
+
+
+
+
+
+
+
+#details {  background-color:palegoldenrod;
+            font-size: 25px;
+            border: solid white 3px;
+            border-radius: 25px;
+            margin: 20px; } 
+
+
+#video { display:block;
+         margin:auto;
+         text-align:center;                }
+
+#prices    {   background-color: palegoldenrod;
+                display: flex;;
+                justify-content: space-around;
+                margin:15px;
+                padding:5px;                    }
+
+.pricing {  background-color:ivory;
+            width: 300px;
+            text-align: center;
+            margin:  5px;
+            padding: 5px;
+            font-size: 30px;                    }
+
+#footer {background-color:black;
+         height: 10 px;
+         display:flex; 
+         justify-content: space-between;
+                                            }
+.footer-nav {margin: 10px;
+             
+                               }
+.footer-nav a { color: white;
+                            }
+
+#social { margin:10px;
+          text-align: center;
+        }
+
+#clo p { margin:10px;
+         padding:10px;
+         font-size: 25px;
+         color:white;   }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width:760px){
+    nav ul {
+        display:flex;
+        justify-content: flex-end;
+    } 
+    #pricing {
+                display:flex;
+    }
+    #low{flex-wrap: wrap;}
+    #medium {flex-wrap: wrap;}
+    #high { flex-wrap: wrap;}
+}
+
